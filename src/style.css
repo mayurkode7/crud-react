@@ -1,0 +1,21 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+button {
+  margin: 10;
+  padding: 10;
+  cursor: pointer;
+}
+
+input {
+  margin: 10;
+  padding: 10;
+  display: block;
+}
