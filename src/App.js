@@ -87,18 +87,18 @@ export default function App() {
 
   return (
     <main>
-      <h1>JSON Server & axios</h1>
+      <h1>Quotes</h1>
       <p>json-server to create fake rest API</p>
       <p>axios to make request</p>
       <p>
         npm run server for running server on 8000. Do it on different terminal
       </p>
 
-
-      <input placeholder="Quote Text Here..." value={text} onChange={(e) => setText(e.target.value)} />
-
-
       <input placeholder="Quote ID Here..." value={id} onChange={(e) => setId(e.target.value)} />
+
+
+      <input style={{ width: '100%' }} placeholder="Quote Text Here..." value={text} onChange={(e) => setText(e.target.value)} />
+
 
 
       <button onClick={onAddNewQuote}> Add New Quote </button>
